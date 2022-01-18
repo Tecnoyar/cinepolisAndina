@@ -1,0 +1,3 @@
+Sub ClearSheet()
+Sheets("SOCIOS_BD_Argentina_Semana_Sema").Cells.Clear
+End Sub

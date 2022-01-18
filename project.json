@@ -1,0 +1,69 @@
+{
+  "name": "CinepolisAndina",
+  "description": "Andina",
+  "main": "CinepolisAndinaProcess.xaml",
+  "dependencies": {
+    "DatatableToHtmlTableString": "[1.0.1]",
+    "UiPath.Excel.Activities": "[2.10.2-preview]",
+    "UiPath.FTP.Activities": "[1.0.6479.13206]",
+    "UiPath.Mail.Activities": "[1.10.2-preview]",
+    "UiPath.System.Activities": "[21.2.1-preview]",
+    "UiPath.UIAutomation.Activities": "[21.2.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.2.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "e50f0045-4752-48a1-8312-b1530ac6edde",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "CinepolisChileProcess.xaml",
+      "uniqueId": "d5eb34f5-ecd8-4153-820a-8aee505cf9f0",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "CinepolisUSAProcess.xaml",
+      "uniqueId": "9f6f3921-9e63-4cc2-b3e8-1776746074f6",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
