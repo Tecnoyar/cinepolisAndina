@@ -18,6 +18,7 @@
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
     "excludedLoggedData": [
@@ -26,7 +27,8 @@
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -58,6 +60,12 @@
     {
       "filePath": "CinepolisUSAProcess.xaml",
       "uniqueId": "9f6f3921-9e63-4cc2-b3e8-1776746074f6",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "CinepolisAndinaProcess.xaml",
+      "uniqueId": "e7db64dd-2d12-481e-a60f-56b62f49c41b",
       "input": [],
       "output": []
     }
