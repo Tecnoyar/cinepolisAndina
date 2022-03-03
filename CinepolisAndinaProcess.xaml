@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>654,1241</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>993,1241</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>CinepolisArgentina_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="60">
@@ -144,47 +144,21 @@
               <av:PointCollection x:Key="ConnectorLocation">300,285.5 300,336.5</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke DownloadFTPFileToLocal workflow" sap:VirtualizedContainerService.HintSize="354,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="FTPAutomation\DownloadFTPFileToLocal.xaml">
+          <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke DownloadFTPFileToLocal workflow" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="FTPAutomation\DownloadFTPFileToLocal.xaml">
             <ui:InvokeWorkflowFile.Arguments>
-              <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">
-                <mva:VisualBasicValue x:TypeArguments="scg:Dictionary(x:String, x:Object)" ExpressionText="config" />
-              </InArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="out_BlackListFileName">
-                <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="blackListFileName" />
-              </OutArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="out_InputFileName">
-                <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="inputFileName" />
-              </OutArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="out_DirectorioClaves">
-                <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="directorioFileName" />
-              </OutArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="out_LuxuryBDFileName">
-                <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="VIPCentralAmericaBDFileName" />
-              </OutArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="out_PremiumBDFileName">
-                <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="TradCentralAmericaBDFileName" />
-              </OutArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="out_MHEBDFileName">
-                <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="McCentralAmericaBDFileName" />
-              </OutArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="out_SurveyMcAmericaFileName">
-                <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="surveyAmericaMcFileName" />
-              </OutArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="out_SurveyTradAmericaFileName">
-                <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="surveyAmeriaTradFilName" />
-              </OutArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="out_SurveyVIPAmericaFileName">
-                <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="surveyAmericaVIPFileName" />
-              </OutArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="out_SurveyTradAndinaFileName">
-                <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="SurveryAndinaTradFileName" />
-              </OutArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="out_SurveyVIPAndinaFileName">
-                <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="SurveyAndinaVIPFileName" />
-              </OutArgument>
-              <OutArgument x:TypeArguments="x:String" x:Key="out_CorrectionFileName">
-                <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="correctionFileName" />
-              </OutArgument>
+              <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[config]</InArgument>
+              <OutArgument x:TypeArguments="x:String" x:Key="out_BlackListFileName">[blackListFileName]</OutArgument>
+              <OutArgument x:TypeArguments="x:String" x:Key="out_InputFileName">[inputFileName]</OutArgument>
+              <OutArgument x:TypeArguments="x:String" x:Key="out_DirectorioClaves">[directorioFileName]</OutArgument>
+              <OutArgument x:TypeArguments="x:String" x:Key="out_LuxuryBDFileName">[VIPCentralAmericaBDFileName]</OutArgument>
+              <OutArgument x:TypeArguments="x:String" x:Key="out_PremiumBDFileName">[TradCentralAmericaBDFileName]</OutArgument>
+              <OutArgument x:TypeArguments="x:String" x:Key="out_MHEBDFileName">[McCentralAmericaBDFileName]</OutArgument>
+              <OutArgument x:TypeArguments="x:String" x:Key="out_SurveyMcAmericaFileName">[surveyAmericaMcFileName]</OutArgument>
+              <OutArgument x:TypeArguments="x:String" x:Key="out_SurveyTradAmericaFileName">[surveyAmeriaTradFilName]</OutArgument>
+              <OutArgument x:TypeArguments="x:String" x:Key="out_SurveyVIPAmericaFileName">[surveyAmericaVIPFileName]</OutArgument>
+              <OutArgument x:TypeArguments="x:String" x:Key="out_SurveyTradAndinaFileName">[SurveryAndinaTradFileName]</OutArgument>
+              <OutArgument x:TypeArguments="x:String" x:Key="out_SurveyVIPAndinaFileName">[SurveyAndinaVIPFileName]</OutArgument>
+              <OutArgument x:TypeArguments="x:String" x:Key="out_CorrectionFileName">[correctionFileName]</OutArgument>
             </ui:InvokeWorkflowFile.Arguments>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -212,17 +186,35 @@
                       <av:PointCollection x:Key="ConnectorLocation">300,565.5 300,604.5</av:PointCollection>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke ManipulatingBlackListTracking workflow" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_11" UnSafe="False" WorkflowFileName="ManipulateBlackListTracking\ManipulatingBlackListTracking.xaml">
+                  <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke ManipulatingBlackListTracking workflow" sap:VirtualizedContainerService.HintSize="379,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_11" UnSafe="False" WorkflowFileName="ManipulateBlackListTracking\ManipulatingBlackListTracking.xaml">
                     <ui:InvokeWorkflowFile.Arguments>
-                      <InArgument x:TypeArguments="sd:DataTable" x:Key="in_NoSociosDataTable">[inputDataTable]</InArgument>
-                      <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_BlackListTrackingDT">[blackListDatatable]</OutArgument>
-                      <InArgument x:TypeArguments="x:String" x:Key="in_BlackListFileName">[blackListFileName]</InArgument>
-                      <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[config]</InArgument>
-                      <InArgument x:TypeArguments="x:String" x:Key="in_SurveyAmericaVIPFileName">[surveyAmericaVIPFileName]</InArgument>
-                      <InArgument x:TypeArguments="x:String" x:Key="in_SurveyAmericaTradFileName">[surveyAmeriaTradFilName]</InArgument>
-                      <InArgument x:TypeArguments="x:String" x:Key="in_SurveyAmericaMcFileName">[surveyAmericaMcFileName]</InArgument>
-                      <InArgument x:TypeArguments="x:String" x:Key="in_SurveyAndinaTradFileName">[SurveryAndinaTradFileName]</InArgument>
-                      <InArgument x:TypeArguments="x:String" x:Key="in_SurveyAndinaVIPFileName">[SurveyAndinaVIPFileName]</InArgument>
+                      <InArgument x:TypeArguments="sd:DataTable" x:Key="in_NoSociosDataTable">
+                        <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="inputDataTable" />
+                      </InArgument>
+                      <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_BlackListTrackingDT">
+                        <mva:VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="blackListDatatable" />
+                      </OutArgument>
+                      <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">
+                        <mva:VisualBasicValue x:TypeArguments="scg:Dictionary(x:String, x:Object)" ExpressionText="config" />
+                      </InArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_SurveyAmericaVIPFileName">
+                        <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="surveyAmericaVIPFileName" />
+                      </InArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_SurveyAmericaTradFileName">
+                        <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="surveyAmeriaTradFilName" />
+                      </InArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_SurveyAmericaMcFileName">
+                        <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="surveyAmericaMcFileName" />
+                      </InArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_SurveyAndinaTradFileName">
+                        <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="SurveryAndinaTradFileName" />
+                      </InArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_SurveyAndinaVIPFileName">
+                        <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="SurveyAndinaVIPFileName" />
+                      </InArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="inOut_BlackListFileName">
+                        <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="blackListFileName" />
+                      </InOutArgument>
                     </ui:InvokeWorkflowFile.Arguments>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
